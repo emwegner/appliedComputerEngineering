@@ -63,17 +63,17 @@ ble_pipeline/
 # 1. Clone the repo
 git clone <repo-url>
 
-and change into the folder with the project
+# and change into the folder with the project
 
 # 2. Start all services (Postgres + Airflow)
 docker compose up -d
 
 # 3. Open the Airflow UI
-#    http://localhost:8080
+ http://localhost:8080
 #    username/password: admin
 
 # 4. Trigger the DAG manually:
-#    UI → DAGs → ble_positioning_pipeline → Trigger DAG
+ UI → DAGs → ble_positioning_pipeline → Trigger DAG
 ```
 
 Airflow will run all 5 stages sequentially. The final report is saved to:
@@ -85,7 +85,7 @@ artifacts/<run_id>/final_kpi_report.html
 ```
 # 1.  python -m http.server 9000 --directory artifacts
 
-Results are now hosted now displayed at
+# Results are now hosted now displayed at
   http://localhost:9000
 ```
 
