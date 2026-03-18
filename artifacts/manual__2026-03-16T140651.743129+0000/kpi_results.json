@@ -1,0 +1,103 @@
+{
+  "overall": {
+    "rmse": 1.7366,
+    "p90_accuracy": 2.408,
+    "p50_accuracy": 1.7067,
+    "mean_error": 1.5242,
+    "median_error": 1.7067,
+    "max_error": 2.4965,
+    "min_error": 0.3558,
+    "std_error": 0.8322,
+    "n_estimates": 6
+  },
+  "by_setup_type": {
+    "LOS": {
+      "rmse": 1.6778,
+      "p90_accuracy": 2.2728,
+      "p50_accuracy": 1.3782,
+      "mean_error": 1.4782,
+      "median_error": 1.3782,
+      "max_error": 2.4965,
+      "std_error": 0.7938,
+      "n_estimates": 3
+    },
+    "NLOS": {
+      "rmse": 1.7934,
+      "p90_accuracy": 2.2626,
+      "p50_accuracy": 2.0353,
+      "mean_error": 1.5702,
+      "median_error": 2.0353,
+      "max_error": 2.3194,
+      "std_error": 0.8665,
+      "n_estimates": 3
+    }
+  },
+  "by_position": {
+    "(0,0)": {
+      "LOS": {
+        "rmse": 1.3782,
+        "p90": 1.3782,
+        "mean_error": 1.3782,
+        "x_est": 1.1132,
+        "y_est": 0.8125,
+        "n_estimates": 1
+      },
+      "NLOS": {
+        "rmse": 2.3194,
+        "p90": 2.3194,
+        "mean_error": 2.3194,
+        "x_est": 2.0578,
+        "y_est": 1.0701,
+        "n_estimates": 1
+      }
+    },
+    "(0,1)": {
+      "LOS": {
+        "rmse": 2.4965,
+        "p90": 2.4965,
+        "mean_error": 2.4965,
+        "x_est": 2.4844,
+        "y_est": 1.246,
+        "n_estimates": 1
+      },
+      "NLOS": {
+        "rmse": 2.0353,
+        "p90": 2.0353,
+        "mean_error": 2.0353,
+        "x_est": 2.035,
+        "y_est": 1.0323,
+        "n_estimates": 1
+      }
+    },
+    "(1,1)": {
+      "LOS": {
+        "rmse": 0.5599,
+        "p90": 0.5599,
+        "mean_error": 0.5599,
+        "x_est": 0.5191,
+        "y_est": 0.7132,
+        "n_estimates": 1
+      },
+      "NLOS": {
+        "rmse": 0.3558,
+        "p90": 0.3558,
+        "mean_error": 0.3558,
+        "x_est": 1.032,
+        "y_est": 0.6457,
+        "n_estimates": 1
+      }
+    }
+  },
+  "nlos_impact": {
+    "los_rmse": 1.6778,
+    "nlos_rmse": 1.7934,
+    "rmse_degradation_m": 0.1155,
+    "rmse_degradation_pct": 6.89,
+    "los_p90": 2.2728,
+    "nlos_p90": 2.2626,
+    "los_mean": 1.4782,
+    "nlos_mean": 1.5702,
+    "n_los": 3,
+    "n_nlos": 3
+  }
+}

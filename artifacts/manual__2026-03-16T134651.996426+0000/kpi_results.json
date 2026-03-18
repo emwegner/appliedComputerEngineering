@@ -1,0 +1,121 @@
+{
+  "overall": {
+    "rmse": 1.8529,
+    "p90_accuracy": 2.5445,
+    "p50_accuracy": 1.7786,
+    "mean_error": 1.6654,
+    "median_error": 1.7786,
+    "max_error": 2.6565,
+    "min_error": 0.3558,
+    "std_error": 0.8122,
+    "n_estimates": 8
+  },
+  "by_setup_type": {
+    "LOS": {
+      "rmse": 1.9687,
+      "p90_accuracy": 2.6085,
+      "p50_accuracy": 1.9374,
+      "mean_error": 1.7728,
+      "median_error": 1.9374,
+      "max_error": 2.6565,
+      "std_error": 0.8561,
+      "n_estimates": 4
+    },
+    "NLOS": {
+      "rmse": 1.7295,
+      "p90_accuracy": 2.2342,
+      "p50_accuracy": 1.7786,
+      "mean_error": 1.5581,
+      "median_error": 1.7786,
+      "max_error": 2.3194,
+      "std_error": 0.7507,
+      "n_estimates": 4
+    }
+  },
+  "by_position": {
+    "(0,0)": {
+      "LOS": {
+        "rmse": 1.3782,
+        "p90": 1.3782,
+        "mean_error": 1.3782,
+        "x_est": 1.1132,
+        "y_est": 0.8125,
+        "n_estimates": 1
+      },
+      "NLOS": {
+        "rmse": 2.3194,
+        "p90": 2.3194,
+        "mean_error": 2.3194,
+        "x_est": 2.0578,
+        "y_est": 1.0701,
+        "n_estimates": 1
+      }
+    },
+    "(0,1)": {
+      "LOS": {
+        "rmse": 2.4965,
+        "p90": 2.4965,
+        "mean_error": 2.4965,
+        "x_est": 2.4844,
+        "y_est": 1.246,
+        "n_estimates": 1
+      },
+      "NLOS": {
+        "rmse": 2.0353,
+        "p90": 2.0353,
+        "mean_error": 2.0353,
+        "x_est": 2.035,
+        "y_est": 1.0323,
+        "n_estimates": 1
+      }
+    },
+    "(1,1)": {
+      "LOS": {
+        "rmse": 0.5599,
+        "p90": 0.5599,
+        "mean_error": 0.5599,
+        "x_est": 0.5191,
+        "y_est": 0.7132,
+        "n_estimates": 1
+      },
+      "NLOS": {
+        "rmse": 0.3558,
+        "p90": 0.3558,
+        "mean_error": 0.3558,
+        "x_est": 1.032,
+        "y_est": 0.6457,
+        "n_estimates": 1
+      }
+    },
+    "(2,2)": {
+      "LOS": {
+        "rmse": 2.6565,
+        "p90": 2.6565,
+        "mean_error": 2.6565,
+        "x_est": -0.6083,
+        "y_est": 1.4962,
+        "n_estimates": 1
+      },
+      "NLOS": {
+        "rmse": 1.5218,
+        "p90": 1.5218,
+        "mean_error": 1.5218,
+        "x_est": 1.2822,
+        "y_est": 0.6581,
+        "n_estimates": 1
+      }
+    }
+  },
+  "nlos_impact": {
+    "los_rmse": 1.9687,
+    "nlos_rmse": 1.7295,
+    "rmse_degradation_m": -0.2392,
+    "rmse_degradation_pct": -12.15,
+    "los_p90": 2.6085,
+    "nlos_p90": 2.2342,
+    "los_mean": 1.7728,
+    "nlos_mean": 1.5581,
+    "n_los": 4,
+    "n_nlos": 4
+  }
+}
