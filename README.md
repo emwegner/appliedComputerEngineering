@@ -11,6 +11,11 @@ This project collects raw BLE radio data from a 2×2 m lab room (Room L211), pro
 
 The pipeline is orchestrated by **Apache Airflow** running inside **Docker**, so the entire stack can be reproduced with a single command on any machine.
 
+# Github Repository 
+The github repository can be found at
+https://github.com/emwegner/appliedComputerEngineering
+It is a public repository.
+
 ---
 
 ## Pipeline Architecture
